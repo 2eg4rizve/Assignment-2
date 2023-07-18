@@ -299,7 +299,7 @@ nav {}
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-   
+
     width: 70%;
 
     margin: 0 auto;
@@ -340,10 +340,96 @@ nav {}
     line-height: normal;
 }
 
-.review-container1{
+.review-container1 {
     display: none;
 }
 
 
 /* review end */
 /*  game click end */
+
+
+
+
+
+/* footer start */
+
+.f1 {
+    background: #0B0223;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 1000px;
+    width: 900px;
+    margin: 0 auto;
+    background: #0B0223;
+    text-align: center;
+    color: white;
+    border: 1px solid red;
+
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+.hive-section2 {
+    color: white;
+}
+
+.footer-describtion {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.icons-container {
+    padding-top: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 40px;
+    border: 1px solid rgb(20, 187, 9);
+}
+
+.fa-brands {
+    font-size: 50px;
+}
+
+.footer-describtion2 {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-copy-write {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* footer end */

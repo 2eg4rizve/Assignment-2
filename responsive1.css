@@ -103,11 +103,16 @@
         color: #FFF;
     }
 
-
-
-
-
     /* banner end*/
+
+    /* Online Games Funny Videos start */
+      
+    .fuuny-container{
+        flex-direction: column;
+    }
+
+
+    /* Online Games Funny Videos end */
 
 
     /* Play Games Online start */

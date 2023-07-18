@@ -87,7 +87,7 @@ nav {}
 }
 
 
-/* banner */
+/* banner start*/
 .banner-container {
 
     border: 1px solid red;
@@ -106,7 +106,7 @@ nav {}
     border: 1px solid rgb(5, 232, 100);
     width: 50%;
     /* text-align: center; */
-    
+
     background-image: url("./images/Group\ 14.png");
 }
 
@@ -122,6 +122,7 @@ nav {}
     margin-top: 100px;
     margin-left: 100px;
 }
+
 .banner-word-colour {
     background-image: linear-gradient(to bottom, #9376e0, #e893cf);
     color: transparent;
@@ -131,7 +132,8 @@ nav {}
     margin-top: 100px;
     margin-left: 100px;
 }
-.banner-p{
+
+.banner-p {
 
     margin-left: 100px;
 }
@@ -140,7 +142,7 @@ nav {}
     border: 1px solid rgb(88, 7, 209);
     width: 50%;
     border-radius: 10px;
-    
+
 }
 
 .banner-img img {
@@ -161,6 +163,7 @@ nav {}
     color: #FFF;
     margin-left: 100px;
 }
+
 .banner-button2 {
     background: #4EC5F7;
     padding: 20px 40px;
@@ -171,3 +174,125 @@ nav {}
     margin-top: 30px;
     color: #FFF;
 }
+
+
+/* banner end*/
+
+/* Play Games Online start */
+
+/* discount */
+
+
+.discount-section {
+    margin-top: 100px;
+    /* background-color: #9376e0; */
+    min-height: 800px;
+    padding: 15px 0;
+    border: 1px solid rgb(4, 245, 57);
+}
+
+.discount-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(234, 107, 2);
+}
+
+.discount-img {
+    width: 50%;
+    position: relative;
+    border: 1px solid rgb(41, 5, 220);
+
+}
+
+.discount-img1 {
+    width: 80%;
+    height: 100%;
+    display: block;
+
+}
+
+.discount-img2 {
+    width: 230px;
+    height: 250px;
+    display: block;
+
+}
+
+.discount-text {
+    width: 50%;
+    border: 1px solid rgb(16, 15, 15);
+    text-align: center;
+}
+
+.discount-button {
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 3px solid white;
+
+
+}
+
+.discount-number {
+    background-color: rgb(128, 128, 16);
+    height: 90px;
+    width: 90px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+
+}
+
+.discount-text-h3 {
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.discount-text-p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.discount-text-h3-s1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.discount-text-h3-s2{
+    color: rgba(135, 88, 241, 1);
+}
+
+
+
+
+
+
+
+
+
+/* Play Games Online end */

@@ -167,28 +167,28 @@
     /*  game click start */
     /* review start  */
 
-       .review-container{
+    .review-container {
         display: none;
-       }
+    }
 
-       .review-container1 {
+    .review-container1 {
         max-width: 1400px;
         border: 1px solid red;
         gap: 5px;
         margin-top: 30px;
         display: flex;
         flex-wrap: wrap;
-       
+
         width: 99%;
-    
+
         margin: 0 auto;
-    
+
         align-content: center;
         justify-content: space-evenly;
-    
-    
+
+
     }
-    
+
     .single-review {
         border: 1px solid green;
         flex-basis: 100px;
@@ -199,19 +199,19 @@
         border-radius: 50px;
         background: #FFF;
     }
-    
+
     .single-review img {
         height: 30px;
         width: 15ppx;
         margin-right: 10px;
     }
-    
+
     .top-review {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    
+
     .top-review-p {
         color: #0B0223;
         font-family: Work Sans;
@@ -220,13 +220,100 @@
         font-weight: 600;
         line-height: normal;
     }
-    
+
 
 
 
 
     /* review end */
     /*  game click end */
+
+
+    /* footer start */
+
+
+    .f1 {
+        background: #0B0223;
+    }
+
+    .footer {
+        margin-top: 50px;
+        height: 1000px;
+        width: 90%;
+        margin: 0 auto;
+        background: #0B0223;
+        text-align: center;
+        color: white;
+        border: 1px solid red;
+
+    }
+
+    .footer-logo {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding-top: 40px;
+    }
+
+    .hive-section2 {
+        color: white;
+    }
+
+    .footer-describtion {
+        display: flex;
+        gap: 5px;
+        justify-content: space-around;
+        color: #FFF;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .icons-container {
+        padding-top: 50px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto 40px;
+        border: 1px solid rgb(20, 187, 9);
+    }
+
+    .fa-brands {
+        font-size: 30px;
+    }
+
+    .footer-describtion2 {
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .footer-copy-write {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+    /* footer end */
+
+
 
 
 

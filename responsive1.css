@@ -20,6 +20,18 @@
         width: 100%;
         margin-bottom: 10px;
     }
+    .nav-three {
+        width: 60%;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        
+    
+    
+    }
 
     /* nav end */
 
@@ -109,6 +121,7 @@
       
     .fuuny-container{
         flex-direction: column;
+        align-items: center;
     }
 
 
@@ -267,6 +280,7 @@
     }
 
     .footer-describtion {
+       
         display: flex;
         gap: 5px;
         justify-content: space-around;
@@ -277,6 +291,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        margin: 0 auto;
     }
 
     .icons-container {

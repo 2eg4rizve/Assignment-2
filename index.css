@@ -31,11 +31,14 @@ nav {}
     display: flex;
     width: 50%;
     border: 1px solid red;
+    padding: 10px;
 }
 
 .logo-container img {
-    width: 86.041px;
+    width: 70.041px;
     height: 40px;
+    margin-right: 20px;
+    margin-top: 25px;
 }
 
 .logo-container p {

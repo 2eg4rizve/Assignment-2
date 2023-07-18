@@ -113,33 +113,37 @@
     /* Play Games Online start */
     /* discount start*/
 
-     .discount-container {
-    
+    .discount-container {
+
         flex-direction: column;
-     }
-     .discount-img{
-         width: 98%;
-         height: 100%;
-     }
-     .discount-img1 {
+    }
+
+    .discount-img {
+        width: 98%;
+        height: 100%;
+    }
+
+    .discount-img1 {
         width: 82%;
         height: 100%;
         display: block;
-    
+
     }
-    
+
     .discount-img2 {
         width: 120px;
         height: 160px;
         display: block;
-    
+
     }
-     .discount-text{
+
+    .discount-text {
         width: 98%;
-         text-align: center;
-         padding-top: 120px;
-     }
-     .discount-number {
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .discount-number {
         background-color: rgb(128, 128, 16);
         height: 90px;
         width: 90px;
@@ -151,15 +155,79 @@
         position: absolute;
         top: 80%;
         left: 65%;
+
+    }
+
+    /* discount end*/
+    /* Play Games Online end */
+
+
+
+
+    /*  game click start */
+    /* review start  */
+
+       .review-container{
+        display: none;
+       }
+
+       .review-container1 {
+        max-width: 1400px;
+        border: 1px solid red;
+        gap: 5px;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+       
+        width: 99%;
     
+        margin: 0 auto;
+    
+        align-content: center;
+        justify-content: space-evenly;
+    
+    
+    }
+    
+    .single-review {
+        border: 1px solid green;
+        flex-basis: 100px;
+        height: 50px;
+        /* height: 500px; */
+
+        padding: 2px;
+        border-radius: 50px;
+        background: #FFF;
+    }
+    
+    .single-review img {
+        height: 30px;
+        width: 15ppx;
+        margin-right: 10px;
+    }
+    
+    .top-review {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .top-review-p {
+        color: #0B0223;
+        font-family: Work Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
     }
     
 
 
 
 
-    /* discount end*/
-    /* Play Games Online end */
+    /* review end */
+    /*  game click end */
+
 
 
 

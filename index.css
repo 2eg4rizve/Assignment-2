@@ -180,7 +180,7 @@ nav {}
 
 /* Play Games Online start */
 
-/* discount */
+/* discount start*/
 
 
 .discount-section {
@@ -231,17 +231,6 @@ nav {}
     text-align: center;
 }
 
-.discount-button {
-    background-color: transparent;
-    padding: 10px 20px;
-    margin-left: 20px;
-    margin-top: 50px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: 3px solid white;
-
-
-}
 
 .discount-number {
     background-color: rgb(128, 128, 16);
@@ -291,8 +280,5 @@ nav {}
 
 
 
-
-
-
-
+/* discount end*/
 /* Play Games Online end */

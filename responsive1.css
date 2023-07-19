@@ -123,7 +123,11 @@
 
     .fuuny-container {
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto; 
+        gap: 70px;
     }
 
 

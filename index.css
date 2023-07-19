@@ -30,7 +30,7 @@ nav {}
 .logo-container {
     display: flex;
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
 }
 
@@ -43,7 +43,7 @@ nav {}
 
 .logo-container p {
     font-size: 30px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-weight: 700;
 }
 
@@ -55,8 +55,9 @@ nav {}
 .nav-items-container {
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
+    gap: 70px;
 }
 
 .nav-items-container a {
@@ -83,7 +84,7 @@ nav {}
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-
+    
 
 
 
@@ -93,7 +94,7 @@ nav {}
 /* banner start*/
 .banner-container {
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 50px auto 0;
     max-width: 1400px;
     min-height: 50px;
@@ -106,7 +107,7 @@ nav {}
 
 
 .banner-text {
-    border: 1px solid rgb(5, 232, 100);
+    /* border: 1px solid rgb(5, 232, 100); */
     width: 50%;
     /* text-align: center; */
 
@@ -149,7 +150,7 @@ nav {}
  
 
 .banner-img {
-    border: 1px solid rgb(88, 7, 209);
+    /* border: 1px solid rgb(88, 7, 209); */
     width: 50%;
     border-radius: 10px;
 
@@ -260,7 +261,7 @@ figcaption {
 
 .fuuny {
     max-width: 1400px;
-    border: 1px solid rgb(25, 11, 221);
+    /* border: 1px solid rgb(25, 11, 221); */
     margin: 0 auto;
 }
 
@@ -334,7 +335,7 @@ figcaption {
     /* background-color: #9376e0; */
     min-height: 800px;
     padding: 15px 0;
-    border: 1px solid rgb(4, 245, 57);
+    /* border: 1px solid rgb(4, 245, 57); */
 }
 
 .discount-container {
@@ -347,13 +348,13 @@ figcaption {
     min-height: 200px;
     display: flex;
     align-items: center;
-    border: 1px solid rgb(234, 107, 2);
+    /* border: 1px solid rgb(234, 107, 2); */
 }
 
 .discount-img {
     width: 50%;
     position: relative;
-    border: 1px solid rgb(41, 5, 220);
+    /* border: 1px solid rgb(41, 5, 220); */
 
 }
 
@@ -373,7 +374,7 @@ figcaption {
 
 .discount-text {
     width: 50%;
-    border: 1px solid rgb(16, 15, 15);
+    /* border: 1px solid rgb(16, 15, 15); */
     text-align: center;
 }
 
@@ -525,13 +526,13 @@ figcaption {
 
 .footer {
     margin-top: 50px;
-    height: 1000px;
+    min-height: 600px;
     width: 900px;
     margin: 0 auto;
     background: #0B0223;
     text-align: center;
     color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -570,11 +571,13 @@ figcaption {
     gap: 20px;
     justify-content: space-between;
     margin: 0 auto 40px;
-    border: 1px solid rgb(20, 187, 9);
+    /* border: 1px solid rgb(20, 187, 9); */
+    background-color: #0B0223;
 }
 
 .fa-brands {
     font-size: 50px;
+    
 }
 
 .footer-describtion2 {

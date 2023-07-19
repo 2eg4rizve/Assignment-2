@@ -10,6 +10,7 @@
     .nav-items-container {
         flex-direction: column;
         width: 100%;
+        gap: 20px;
     }
 
     .nav-items-container a {
@@ -197,7 +198,7 @@
 
     .review-container1 {
         max-width: 1400px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         gap: 5px;
         margin-top: 30px;
         display: flex;
@@ -286,7 +287,7 @@
         background: #0B0223;
         text-align: center;
         color: white;
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
     }
 
@@ -328,7 +329,7 @@
         gap: 20px;
         justify-content: space-between;
         margin: 0 auto;
-        border: 1px solid rgb(20, 187, 9);
+        /* border: 1px solid rgb(20, 187, 9); */
     }
 
     .fa-brands {

@@ -43,6 +43,9 @@
 
         flex-direction: column;
         gap: 100px;
+        /* text-align: center;
+        justify-content: center; */
+        margin: 50px auto;
 
 
 
@@ -88,7 +91,8 @@
     }
 
     .banner-p {
-        margin-left: 10px;
+        margin-left: 65px;
+       
     }
 
 

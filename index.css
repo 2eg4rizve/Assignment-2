@@ -114,6 +114,7 @@ nav {}
     background-image: url("./images/Group\ 14.png");
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .banner-h1 {

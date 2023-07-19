@@ -194,15 +194,16 @@ nav {}
 .image-container {
     position: relative;
     display: inline-block;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) to adjust transparency */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the last value (0.5) to adjust transparency */
     opacity: 0;
     transition: opacity 0.3s;
     display: flex;
@@ -211,24 +212,43 @@ nav {}
     align-items: center;
     color: white;
     text-align: center;
-  }
-  
-  .image-container:hover .overlay {
+}
+
+.image-container:hover .overlay {
     opacity: 1;
     border-radius: 16px;
 
     border: 5px solid purple;
-  }
-  
-  .play-logo {
+}
+
+.play-logo {
     font-size: 48px;
     margin-bottom: 10px;
-  }
-  
-  .play-text {
+}
+
+.play-text {
     font-weight: bold;
-  }
-  
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FF42A5;
+}
+
+figcaption {
+    margin-top: 20px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: (83, 76, 100, 1)
+        /* 150% */
+}
+
 
 .fuuny {
     max-width: 1400px;

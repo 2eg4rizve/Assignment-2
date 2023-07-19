@@ -459,6 +459,7 @@ nav {}
 
 .f1 {
     background: #0B0223;
+    margin-top: 50px;
 }
 
 .footer {
@@ -487,8 +488,9 @@ nav {}
 }
 
 .footer-describtion {
-    display: flex;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
     justify-content: space-around;
     color: #FFF;
     text-align: center;
@@ -502,7 +504,9 @@ nav {}
 .icons-container {
     padding-top: 50px;
     width: 60%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
     justify-content: space-between;
     margin: 0 auto 40px;
     border: 1px solid rgb(20, 187, 9);
@@ -513,8 +517,9 @@ nav {}
 }
 
 .footer-describtion2 {
-    display: flex;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     justify-content: space-around;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;

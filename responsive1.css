@@ -212,11 +212,11 @@
 
     .single-review {
         /* border: 1px solid green; */
-        flex-basis: 110px;
+        flex-basis: 130px;
         height: 50px;
         /* height: 500px; */
 
-        padding: 2px;
+        padding: 5px;
         border-radius: 50px;
         background: #FFF;
     }
@@ -246,7 +246,7 @@
 
     .top-review {
         display: flex;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         align-items: center;
     }
 
@@ -293,6 +293,7 @@
         justify-content: center;
         margin-top: 20px;
         padding-top: 40px;
+        margin: 0 auto;
     }
 
     .hive-section2 {
@@ -320,17 +321,19 @@
         width: 90%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
+        gap: 20px;
         justify-content: space-between;
-        margin: 0 auto 40px;
+        margin: 0 auto;
         border: 1px solid rgb(20, 187, 9);
     }
 
     .fa-brands {
         font-size: 30px;
+        margin-bottom: 10px;
     }
 
     .footer-describtion2 {
+        padding-top: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
@@ -345,7 +348,7 @@
     }
 
     .footer-copy-write {
-        padding-top: 25px;
+        padding-top: 45px;
         color: rgba(255, 255, 255, 0.60);
         text-align: center;
         font-family: Work Sans;

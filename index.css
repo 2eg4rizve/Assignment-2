@@ -108,14 +108,16 @@ nav {}
 
 .banner-text {
     /* border: 1px solid rgb(5, 232, 100); */
-    width: 50%;
+    width: 60%;
     /* text-align: center; */
-
+ 
     background-image: url("./images/Group\ 14.png");
-    background-size: cover;
+   
     background-repeat: no-repeat;
-    object-fit: cover;
-}
+ 
+    background-size: cover;
+   
+ }
 
 .banner-h1 {
     color: #0B0223;

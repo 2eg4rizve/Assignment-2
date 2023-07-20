@@ -212,7 +212,7 @@ nav {}
 
 .gamer-l {
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .gamer-l img {
@@ -222,7 +222,7 @@ nav {}
 
 .gamer-r {
     width: 50%;
-    border: 1px solid rgb(16, 210, 81);
+    /* border: 1px solid rgb(16, 210, 81); */
     padding: 20px;
 
 }
@@ -726,14 +726,14 @@ figcaption {
 .Careers-cointainer {
     max-width: 1400px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     margin-top: 100px;
 }
 
 .Careers-cointainer-l {
     width: 50%;
-    border: 2px solid rgb(12, 231, 81);
+    /* border: 2px solid rgb(12, 231, 81); */
     padding: 20px;
     margin-bottom: 10px;
 }

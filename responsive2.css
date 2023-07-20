@@ -1,4 +1,4 @@
-@media screen and (min-width:426px) and (max-width: 768px)  {
+@media screen and (min-width:426px) and (max-width: 768px) {
 
 
     /* nav start*/
@@ -13,6 +13,7 @@
         width: 100%;
         gap: 30px;
     }
+
     .logo-container {
         display: flex;
         width: 90%;
@@ -23,7 +24,7 @@
         align-items: center; */
         justify-content: center;
     }
-    
+
 
     .nav-items-container a {
         margin-top: 20px;
@@ -135,6 +136,109 @@
 
     /* banner end*/
 
+
+    /* We are gamer start */
+
+    .gamer-section {
+        max-width: 1400px;
+        margin: 100px auto;
+        text-align: center;
+
+    }
+
+    .gamer {
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .gamer-l {
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .gamer-l img {
+        width: 98%;
+        height: 98%;
+    }
+
+    .gamer-r {
+        width: 100%;
+        border: 1px solid rgb(16, 210, 81);
+        padding: 20px;
+
+
+
+    }
+
+    .gamer-h {
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 50px;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 15px;
+    }
+
+    .gamer-dis {
+        color: #534C64;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 15px;
+
+    }
+
+    .gamer-button {
+        text-align: center;
+        display: inline-flex;
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+
+        margin-bottom: 30px;
+        margin-top: 40px;
+
+        margin: 0 20%;
+
+    }
+
+    .gamer-last {
+        text-align: center;
+        color: #534C64;
+        /* text-align: right; */
+        font-family: Work Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+
+    }
+
+
+    /* We are gamer end */
+
+
+
     /* Online Games Funny Videos start */
 
     .fuuny-container {
@@ -142,7 +246,7 @@
         /* align-items: center; */
         justify-content: center;
         text-align: center;
-        margin: 0 auto; 
+        margin: 0 auto;
         gap: 70px;
         font-size: 20px;
     }
@@ -244,8 +348,8 @@
         padding: 5px;
         border-radius: 50px;
         background: #FFF;
-       
-       
+
+
     }
 
     .single-review:hover {
@@ -284,7 +388,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        
+
     }
 
 
@@ -295,12 +399,75 @@
     /*  game click end */
 
 
+    /* Careers start */
+
+
+
+    .Careers-cointainer {
+        flex-direction: column;
+    }
+
+    .Careers-cointainer-l {
+        width: 100%;
+        border: 2px solid rgb(12, 231, 81);
+        padding: 20px;
+        margin-bottom: 10px;
+        gap: 50px;
+    }
+
+    .Careers-cointainer-r {
+        width: 100%;
+    }
+
+    .Careers-cointainer-r img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Career-h {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        /* 125% */
+    }
+
+    .Career-dis {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+        margin-bottom: 50px;
+    }
+
+    .Career-list {
+        display: flex;
+        justify-content: space-between;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 10px;
+
+    }
+
+
+
+
+    /* Careers end */
+
+
+
     /* footer start */
 
 
     .f1 {
         background: #0B0223;
-        
+
     }
 
     .footer {
@@ -311,7 +478,7 @@
         background: #0B0223;
         text-align: center;
         color: white;
-        
+
         /* border: 1px solid red; */
 
     }

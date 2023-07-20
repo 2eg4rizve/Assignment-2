@@ -84,7 +84,7 @@ nav {}
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    
+
 
 
 
@@ -110,14 +110,14 @@ nav {}
     /* border: 1px solid rgb(5, 232, 100); */
     width: 60%;
     /* text-align: center; */
- 
+
     background-image: url("./images/Group\ 14.png");
-   
+
     background-repeat: no-repeat;
- 
+
     background-size: cover;
-   
- }
+
+}
 
 .banner-h1 {
     color: #0B0223;
@@ -143,16 +143,16 @@ nav {}
     margin-bottom: 30px;
 }
 
-.banner-p{
+.banner-p {
     /* align-content: center; */
- 
+
     display: flex;
     align-items: center;
     gap: 6px;
     margin-left: 100px;
 
- }
- 
+}
+
 
 .banner-img {
     /* border: 1px solid rgb(88, 7, 209); */
@@ -197,7 +197,100 @@ nav {}
 
 /* banner end*/
 
-/* Play Games Online start */
+/* We are gamer start */
+
+.gamer-section {
+    max-width: 1400px;
+    margin: 100px auto;
+
+}
+
+.gamer {
+    display: flex;
+    /* text-align: center; */
+}
+
+.gamer-l {
+    width: 50%;
+    border: 1px solid red;
+}
+
+.gamer-l img {
+    width: 98%;
+    height: 98%;
+}
+
+.gamer-r {
+    width: 50%;
+    border: 1px solid rgb(16, 210, 81);
+    padding: 20px;
+    
+}
+
+.gamer-h {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.gamer-dis {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+}
+
+.gamer-button {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 65%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.gamer-last {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    
+}
+
+
+/* We are gamer end */
+
+
+
+
 
 
 
@@ -519,6 +612,74 @@ figcaption {
 /*  game click end */
 
 
+/* Careers start */
+
+.Careers-section {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    min-height: 600px;
+}
+
+.Careers-cointainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    margin-top: 100px;
+}
+
+.Careers-cointainer-l {
+    width: 50%;
+    border: 2px solid rgb(12, 231, 81);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.Careers-cointainer-r {
+    width: 50%;
+}
+
+.Careers-cointainer-r img {
+    width: 100%;
+    height: 100%;
+}
+
+.Career-h {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.Career-dis {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 50px;
+}
+
+.Career-list {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 10px;
+
+}
+
+
+
+
+/* Careers end */
+
+
 
 
 
@@ -582,7 +743,16 @@ figcaption {
 
 .fa-brands {
     font-size: 50px;
-    
+
+
+}
+
+.icons-container li {
+    list-style: none;
+}
+
+.icons-container a {
+    color: white;
 }
 
 .footer-describtion2 {

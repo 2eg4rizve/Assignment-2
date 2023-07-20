@@ -92,7 +92,7 @@
 
     .banner-p {
         margin-left: 65px;
-       
+
     }
 
 
@@ -116,13 +116,118 @@
         margin-right: 20px;
         border-radius: 48px;
 
-        
+
 
         margin-top: 30px;
         color: #FFF;
     }
 
     /* banner end*/
+
+
+    /* We are gamer start */
+
+    .gamer-section {
+        max-width: 1400px;
+        margin: 100px auto;
+        text-align: center;
+
+    }
+
+    .gamer {
+        flex-direction: column;
+        justify-content: center;
+       
+        
+    }
+
+    .gamer-l {
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .gamer-l img {
+        width: 98%;
+        height: 98%;
+    }
+
+    .gamer-r {
+        width: 100%;
+        border: 1px solid rgb(16, 210, 81);
+        padding: 20px;
+        
+        
+
+    }
+
+    .gamer-h {
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 50px;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 15px;
+    }
+
+    .gamer-dis {
+        color: #534C64;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 15px;
+
+    }
+
+    .gamer-button {
+        text-align: center;
+        display: inline-flex;
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 48px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+       
+        margin-bottom: 30px;
+        margin-top: 40px;
+
+        margin:0 20%;
+
+    }
+
+    .gamer-last {
+        text-align: center;
+        color: #534C64;
+        /* text-align: right; */
+        font-family: Work Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px;
+
+    }
+
+
+    /* We are gamer end */
+
+
+
+
 
     /* Online Games Funny Videos start */
 
@@ -131,7 +236,7 @@
         /* align-items: center; */
         justify-content: center;
         text-align: center;
-        margin: 0 auto; 
+        margin: 0 auto;
         gap: 70px;
     }
 
@@ -274,6 +379,70 @@
 
     /* review end */
     /*  game click end */
+
+
+    /* Careers start */
+
+
+
+    .Careers-cointainer {
+        flex-direction: column;
+    }
+
+    .Careers-cointainer-l {
+        width: 100%;
+        border: 2px solid rgb(12, 231, 81);
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .Careers-cointainer-r {
+        width: 100%;
+    }
+
+    .Careers-cointainer-r img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Career-h {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        /* 125% */
+    }
+
+    .Career-dis {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+        margin-bottom: 50px;
+    }
+
+    .Career-list {
+        display: flex;
+        justify-content: space-between;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 10px;
+
+    }
+
+
+
+
+    /* Careers end */
+
+
+
 
 
     /* footer start */

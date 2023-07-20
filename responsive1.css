@@ -137,8 +137,8 @@
     .gamer {
         flex-direction: column;
         justify-content: center;
-       
-        
+
+
     }
 
     .gamer-l {
@@ -155,8 +155,8 @@
         width: 100%;
         border: 1px solid rgb(16, 210, 81);
         padding: 20px;
-        
-        
+
+
 
     }
 
@@ -202,11 +202,11 @@
         font-weight: 600;
         line-height: normal;
         text-transform: uppercase;
-       
+
         margin-bottom: 30px;
         margin-top: 40px;
 
-        margin:0 20%;
+        margin: 0 20%;
 
     }
 
@@ -242,6 +242,64 @@
 
 
     /* Online Games Funny Videos end */
+
+
+    /* Play Instantly start */
+
+    .discount-container-f {
+
+        flex-direction: column;
+
+    }
+
+    .discount-img-f {
+        margin-top: 50px;
+        width: 98%;
+        height: 100%;
+    }
+
+    .discount-img1-f {
+        width: 82%;
+        height: 100%;
+        display: block;
+       
+
+    }
+
+    .discount-img2-f {
+        width: 120px;
+        height: 160px;
+        display: block;
+
+    }
+
+    .discount-text-f {
+        width: 98%;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .discount-number-f {
+        background-color: rgb(128, 128, 16);
+        height: 90px;
+        width: 90px;
+        font-size: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 80%;
+        left: 5%;
+
+    }
+
+
+
+
+    /* Play Instantly end */
+
+
 
 
     /* Play Games Online start */
@@ -288,7 +346,7 @@
         align-items: center;
         position: absolute;
         top: 80%;
-        left: 65%;
+        left: 70%;
 
     }
 

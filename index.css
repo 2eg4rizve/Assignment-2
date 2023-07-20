@@ -224,7 +224,7 @@ nav {}
     width: 50%;
     border: 1px solid rgb(16, 210, 81);
     padding: 20px;
-    
+
 }
 
 .gamer-h {
@@ -271,7 +271,7 @@ nav {}
     margin-left: 65%;
     margin-bottom: 20px;
     margin-top: 20px;
-    
+
 }
 
 .gamer-last {
@@ -282,7 +282,7 @@ nav {}
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
-    
+
 }
 
 
@@ -418,6 +418,109 @@ figcaption {
 
 
 
+
+/* Play Instantly start */
+
+
+.discount-section-f {
+    margin-top: 100px;
+    /* background-color: #9376e0; */
+    min-height: 800px;
+    padding: 15px 0;
+    /* border: 1px solid rgb(4, 245, 57); */
+}
+
+.discount-container-f {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid rgb(234, 107, 2); */
+}
+
+.discount-img-f {
+    width: 50%;
+    position: relative;
+    /* border: 1px solid rgb(41, 5, 220); */
+    display: flex;
+    justify-content: end;
+
+}
+
+.discount-img1-f {
+    width: 80%;
+    height: 100%;
+    display: block;
+    
+
+}
+
+.discount-img2-f {
+    width: 230px;
+    height: 250px;
+    display: block;
+
+}
+
+.discount-text-f {
+    width: 50%;
+    /* border: 1px solid rgb(16, 15, 15); */
+    text-align: center;
+}
+
+
+.discount-number-f {
+    background-color: rgb(128, 128, 16);
+    height: 90px;
+    width: 90px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+
+}
+
+.discount-text-h3-f {
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+.discount-text-p-f{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.discount-text-h3-s1-f {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.discount-text-h3-s2 {
+    color: rgba(135, 88, 241, 1);
+}
+
+
+/* Play Instantly end */
 
 
 
@@ -617,6 +720,7 @@ figcaption {
 .Careers-section {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     min-height: 600px;
+    margin-bottom: 100px;
 }
 
 .Careers-cointainer {

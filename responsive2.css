@@ -255,6 +255,58 @@
     /* Online Games Funny Videos end */
 
 
+    /* Play Instantly start */
+
+    .discount-container-f {
+
+        flex-direction: column;
+        padding: 0 auto;
+        gap: 130px;
+    }
+
+    .discount-img-f {
+        width: 98%;
+        height: 100%;
+    }
+
+    .discount-img1-f {
+        width: 82%;
+        height: 100%;
+        display: block;
+
+    }
+
+    .discount-img2-f {
+        width: 320px;
+        height: 260px;
+        display: block;
+
+    }
+
+    .discount-text-f {
+        width: 98%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .discount-number-f {
+        background-color: rgb(128, 128, 16);
+        height: 90px;
+        width: 90px;
+        font-size: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90%;
+        left: 12%;
+
+    }
+
+    /* Play Instantly end */
+
+
     /* Play Games Online start */
     /* discount start*/
 
